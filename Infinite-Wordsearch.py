@@ -41,6 +41,8 @@ characters = ["A",
 
 while True:
     clearscreen()
+    print(location[0], location[1])
+    print()
     for y in range(10):
         for x in range(10):
             seed = round(((location[0] + x + 0.1) / (location[1] + y + 0.1)) * 93452647) * 7691524
